@@ -2,12 +2,12 @@
 
 Flutter Slides utilizes [Flutter Desktop Embedding](https://github.com/google/flutter-desktop-embedding) to provide a simple slide presentation app.  Presentations are data driven from files on the disk, so users can create their own presentations without needing to update any code in the project. 
 
-The [wiki](https://github.com/VGVentures/flutter_slides/wiki) contains documentation about the presentation file structure, content type information, exporting and sharing, and more.
+The [wiki](https://github.com/flutter/slideplayer/wiki) contains documentation about the presentation file structure, content type information, exporting and sharing, and more.
   
 ![\_](https://i.imgur.com/n3o7OZM.png)
 
 ## Features
-- Supports any properly formatted presentation.  See the [wiki](https://github.com/VGVentures/flutter_slides/wiki) for details on the file format.
+- Supports any properly formatted presentation.  See the [wiki](https://github.com/flutter/slideplayer/wiki) for details on the file format.
 - Live updates when presentation file is updated and saved
 - Advancement steps
 - Reveal animations
@@ -33,7 +33,7 @@ of this project:
 <parent dir>
   ├─ flutter (from http://github.com/flutter/flutter)
   ├─ flutter-desktop-embedding (from https://github.com/google/flutter-desktop-embedding)
-  └─ flutter_slides (from https://github.com/VGVentures/flutter_slides)
+  └─ flutter_slides (from https://github.com/flutter/slideplayer)
 ```
 
 Alternately, you can place a `.flutter_location_config` file in the directory
