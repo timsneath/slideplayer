@@ -1,0 +1,61 @@
+name: example_flutter
+description: A new Flutter project.
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.0
+  scoped_model: ^0.3.0
+  watcher: ^0.9.7+10
+  lottie_flutter: ^0.2.0
+  spritewidget: ^0.9.17
+  flare:
+    git: https://github.com/2d-inc/Flare-Flutter
+  nima:
+    git: https://github.com/2d-inc/Nima-Flutter
+
+
+  # Desktop embedder plugins.
+  color_panel:
+    path: ../../flutter-desktop-embedding/plugins/color_panel
+  file_chooser:
+    path: ../../flutter-desktop-embedding/plugins/file_chooser
+  menubar:
+    path: ../../flutter-desktop-embedding/plugins/menubar
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/fonts/GoogleSans/
+  - assets/spritewidget/
+  - assets/flare/
+
+  fonts:
+    - family: GoogleSans
+      fonts:
+        - asset: assets/fonts/GoogleSansNoLiga/GoogleSansNoLiga-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/GoogleSans/GoogleSans-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/GoogleSans/GoogleSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/GoogleSans/GoogleSans-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/GoogleSansNoLiga/GoogleSansNoLiga-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/GoogleSans/GoogleSans-BoldItalic.ttf
+          weight: 700
+          style: italic
+
+    - family: RobotoMono
+      fonts:
+      - asset: assets/fonts/RobotoMono/RobotoMono-Regular.ttf
+        weight: 400
