@@ -10,10 +10,8 @@ dependencies:
   watcher: ^0.9.7+10
   lottie_flutter: ^0.2.0
   spritewidget: ^0.9.17
-  flare:
-    git: https://github.com/2d-inc/Flare-Flutter
-  nima:
-    git: https://github.com/2d-inc/Nima-Flutter
+  flare_flutter: ^1.0.11
+  nima: ^1.0.2
 
 
   # Desktop embedder plugins.
