@@ -1,5 +1,5 @@
-name: example_flutter
-description: A new Flutter project.
+name: flutter_slides
+description: An app for running a slide presentation.
 
 dependencies:
   flutter:
