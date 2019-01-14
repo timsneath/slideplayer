@@ -1,8 +1,8 @@
 # Flutter Slides
 
 Flutter Slides utilizes [Flutter Desktop Embedding](https://github.com/google/flutter-desktop-embedding) to provide a simple slide presentation app.  Presentations are data driven from files on the disk, so users can create their own presentations without needing to update any code in the project. 
-
-The [wiki](https://github.com/flutter/slideplayer/wiki) contains documentation about the presentation file structure, content type information, exporting and sharing, and more.
+  
+For more details on the [presentation file structure](https://github.com/flutter/slideplayer/wiki/Slide-Presentation-JSON-Structure), [animations](https://github.com/flutter/slideplayer/wiki/Slide-Presentation-JSON-Structure#animation-object), [content types](https://github.com/flutter/slideplayer/wiki/Content-Types), and [exporting and sharing a presentation](https://github.com/flutter/slideplayer/wiki/Exporting-and-Sharing-a-Presentation), see the [wiki page](https://github.com/flutter/slideplayer/wiki).
   
 ![\_](https://i.imgur.com/n3o7OZM.png)
 
