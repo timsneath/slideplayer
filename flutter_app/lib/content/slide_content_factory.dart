@@ -1,16 +1,16 @@
-import 'package:example_flutter/content/desktop_embedding_content.dart';
-import 'package:example_flutter/content/error_content.dart';
-import 'package:example_flutter/content/flare_content.dart';
-import 'package:example_flutter/content/image_content.dart';
-import 'package:example_flutter/content/label_content.dart';
-import 'package:example_flutter/content/lottie_content.dart';
-import 'package:example_flutter/content/main_title_content.dart';
-import 'package:example_flutter/content/rect_content.dart';
-import 'package:example_flutter/content/supported_platforms_content.dart';
-import 'package:example_flutter/content/team_photos_content.dart';
-import 'package:example_flutter/models/normalization_multipliers.dart';
-import 'package:example_flutter/content/pillars_content.dart';
-import 'package:example_flutter/content/coding_rolodex_content.dart';
+import 'package:flutter_slides/content/desktop_embedding_content.dart';
+import 'package:flutter_slides/content/error_content.dart';
+import 'package:flutter_slides/content/flare_content.dart';
+import 'package:flutter_slides/content/image_content.dart';
+import 'package:flutter_slides/content/label_content.dart';
+import 'package:flutter_slides/content/lottie_content.dart';
+import 'package:flutter_slides/content/main_title_content.dart';
+import 'package:flutter_slides/content/rect_content.dart';
+import 'package:flutter_slides/content/supported_platforms_content.dart';
+import 'package:flutter_slides/content/team_photos_content.dart';
+import 'package:flutter_slides/models/normalization_multipliers.dart';
+import 'package:flutter_slides/content/pillars_content.dart';
+import 'package:flutter_slides/content/coding_rolodex_content.dart';
 import 'package:flutter/material.dart';
 
 typedef Widget Constructor<Widget>(

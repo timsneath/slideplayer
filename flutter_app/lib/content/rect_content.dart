@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:example_flutter/utils/color_utils.dart' as ColorUtils;
+import 'package:flutter_slides/utils/color_utils.dart' as ColorUtils;
 
 class RectContent extends StatelessWidget {
   final Color fillColor;

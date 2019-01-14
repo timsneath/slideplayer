@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:example_flutter/models/normalization_multipliers.dart';
-import 'package:example_flutter/models/slides.dart';
+import 'package:flutter_slides/models/normalization_multipliers.dart';
+import 'package:flutter_slides/models/slides.dart';
 import 'package:flutter/material.dart';
-import 'package:example_flutter/utils/color_utils.dart' as ColorUtils;
-import 'package:example_flutter/utils/image_utils.dart' as ImageUtils;
+import 'package:flutter_slides/utils/color_utils.dart' as ColorUtils;
+import 'package:flutter_slides/utils/image_utils.dart' as ImageUtils;
 
 enum _PillarsStage { collapsed, beautiful, fast, productive, open }
 

@@ -1,4 +1,4 @@
-import 'package:example_flutter/models/slide_factors.dart';
+import 'package:flutter_slides/models/slide_factors.dart';
 import 'package:flutter/material.dart';
 
 class Slide {

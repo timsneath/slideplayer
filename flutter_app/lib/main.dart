@@ -1,5 +1,5 @@
-import 'package:example_flutter/models/slides.dart';
-import 'package:example_flutter/slides/slide_presentation.dart';
+import 'package:flutter_slides/models/slides.dart';
+import 'package:flutter_slides/slides/slide_presentation.dart';
 import 'package:flutter/foundation.dart'
     show debugDefaultTargetPlatformOverride;
 import 'package:flutter/material.dart';

@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:example_flutter/models/slides.dart';
+import 'package:flutter_slides/models/slides.dart';
 import 'package:flutter/material.dart';
-import 'package:example_flutter/utils/image_utils.dart' as ImageUtils;
+import 'package:flutter_slides/utils/image_utils.dart' as ImageUtils;
 
 class ImageContent extends StatelessWidget {
   final String assetPath;

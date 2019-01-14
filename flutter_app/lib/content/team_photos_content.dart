@@ -2,9 +2,9 @@ import 'dart:async';
 import 'dart:io';
 import 'dart:math';
 
-import 'package:example_flutter/utils/color_utils.dart' as ColorUtils;
+import 'package:flutter_slides/utils/color_utils.dart' as ColorUtils;
 import 'package:flutter/material.dart';
-import 'package:example_flutter/models/slides.dart';
+import 'package:flutter_slides/models/slides.dart';
 
 class TeamPhotosContent extends StatefulWidget {
   final Map contentMap;

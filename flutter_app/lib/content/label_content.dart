@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:example_flutter/utils/color_utils.dart' as ColorUtils;
-import 'package:example_flutter/utils/align_utils.dart' as AlignUtils;
+import 'package:flutter_slides/utils/color_utils.dart' as ColorUtils;
+import 'package:flutter_slides/utils/align_utils.dart' as AlignUtils;
 
 class LabelContent extends StatelessWidget {
   final String text;

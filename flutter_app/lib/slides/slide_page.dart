@@ -1,9 +1,9 @@
 import 'dart:math' as math;
-import 'package:example_flutter/content/slide_content_factory.dart';
-import 'package:example_flutter/models/normalization_multipliers.dart';
-import 'package:example_flutter/models/slide.dart';
-import 'package:example_flutter/models/slides.dart';
-import 'package:example_flutter/content/animated_content_widget.dart';
+import 'package:flutter_slides/content/slide_content_factory.dart';
+import 'package:flutter_slides/models/normalization_multipliers.dart';
+import 'package:flutter_slides/models/slide.dart';
+import 'package:flutter_slides/models/slides.dart';
+import 'package:flutter_slides/content/animated_content_widget.dart';
 import 'package:flutter/material.dart';
 
 class SlidePageController {

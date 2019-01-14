@@ -2,13 +2,13 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:example_flutter/models/slide.dart';
-import 'package:example_flutter/models/slide_factors.dart';
+import 'package:flutter_slides/models/slide.dart';
+import 'package:flutter_slides/models/slide_factors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:scoped_model/scoped_model.dart';
 import 'package:watcher/watcher.dart';
-import 'package:example_flutter/utils/color_utils.dart' as ColorUtils;
+import 'package:flutter_slides/utils/color_utils.dart' as ColorUtils;
 
 FlutterSlidesModel loadedSlides = FlutterSlidesModel();
 

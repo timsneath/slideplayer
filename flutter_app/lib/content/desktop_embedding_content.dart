@@ -1,4 +1,4 @@
-import 'package:example_flutter/models/normalization_multipliers.dart';
+import 'package:flutter_slides/models/normalization_multipliers.dart';
 import 'package:flutter/material.dart';
 
 class DesktopEmbeddingContent extends StatelessWidget {

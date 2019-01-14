@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:io';
-import 'package:example_flutter/models/slides.dart';
-import 'package:example_flutter/slides/slide_page.dart';
+import 'package:flutter_slides/models/slides.dart';
+import 'package:flutter_slides/slides/slide_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';

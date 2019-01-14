@@ -1,7 +1,7 @@
-import 'package:example_flutter/utils/curve_utils.dart' as CurveUtils;
+import 'package:flutter_slides/utils/curve_utils.dart' as CurveUtils;
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
-import 'package:example_flutter/utils/align_utils.dart' as AlignUtils;
+import 'package:flutter_slides/utils/align_utils.dart' as AlignUtils;
 
 class AnimatedContentWidget extends StatefulWidget {
   final Widget child;

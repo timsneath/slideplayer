@@ -1,12 +1,12 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:example_flutter/models/normalization_multipliers.dart';
-import 'package:example_flutter/models/slides.dart';
+import 'package:flutter_slides/models/normalization_multipliers.dart';
+import 'package:flutter_slides/models/slides.dart';
 import 'package:flutter/material.dart';
 import 'dart:ui' show lerpDouble;
-import 'package:example_flutter/utils/curve_utils.dart' as CurveUtils;
-import 'package:example_flutter/utils/color_utils.dart' as ColorUtils;
+import 'package:flutter_slides/utils/curve_utils.dart' as CurveUtils;
+import 'package:flutter_slides/utils/color_utils.dart' as ColorUtils;
 
 class SupportedPlatformsContent extends StatefulWidget {
   final int defaultPage;
