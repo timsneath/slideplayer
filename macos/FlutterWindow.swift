@@ -36,7 +36,6 @@ class FlutterWindow: NSWindow {
 #endif
     flutterViewController.launchEngine(
       withAssetsPath: assets,
-      asHeadless: false,
       commandLineArguments: arguments)
 
     super.awakeFromNib()
