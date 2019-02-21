@@ -24,7 +24,7 @@ For more details on the [presentation file structure](https://github.com/flutter
 - Flutter tracking the master branch ([Why?](https://github.com/google/flutter-desktop-embedding/blob/master/library/README.md#Caveats))
 
 **If your versions are earlier than these commits, it definitely won't work.  If they're later, it may work but we can't make any claims to that.**
-- Your Flutter Desktop Embedding commit must be on [0621734](https://github.com/google/flutter-desktop-embedding/commit/06217345bd60d56d248d65d23312c691001704d7)
+- Your Flutter Desktop Embedding version must be on this commit [0621734](https://github.com/google/flutter-desktop-embedding/commit/06217345bd60d56d248d65d23312c691001704d7)
 - Your Flutter version must be on this commit [b45a8f464d](https://github.com/flutter/flutter/commit/b45a8f464d67ee3733cd5d485606285fc993afdf)
 
 
