@@ -22,10 +22,14 @@ class FlutterWindow: NSWindow {
     minSize.width = 400.0
     minSize.height = 400.0
     
-    FLEColorPanelPlugin.register(with: flutterViewController)
-    FLEFileChooserPlugin.register(with: flutterViewController)
-    FLEMenubarPlugin.register(with: flutterViewController)
-    RecentFilesPlugin.register(with: flutterViewController)
+    FLEColorPanelPlugin.register(
+      with: flutterViewController.registrar(forPlugin: "FLEColorPanelPlugin"))
+    FLEFileChooserPlugin.register(
+      with: flutterViewController.registrar(forPlugin: "FLEFileChooserPlugin"))
+    FLEMenubarPlugin.register(
+      with: flutterViewController.registrar(forPlugin: "FLEMenubarPlugin"))
+    RecentFilesPlugin.register(
+      with: flutterViewController.registrar(forPlugin: "RecentFilesPlugin"))
 
     let assets = NSURL.fileURL(withPath: "flutter_assets", relativeTo: Bundle.main.resourceURL)
     // Pass through argument zero, since the Flutter engine expects to be processing a full
@@ -43,31 +47,31 @@ class FlutterWindow: NSWindow {
 }
 
 class RecentFilesPlugin : NSObject, FLEPlugin {
-  private let channel: FLEMethodChannel
+  private let channel: FlutterMethodChannel
   static func register(with registrar: FLEPluginRegistrar) {
   
-    let channel = FLEMethodChannel(name: "FlutterSlides:CustomPlugin",
-                                   binaryMessenger: registrar.messenger,
-                                   codec: FLEJSONMethodCodec.sharedInstance())
+    let channel = FlutterMethodChannel(name: "FlutterSlides:CustomPlugin",
+                                       binaryMessenger: registrar.messenger,
+                                       codec: FlutterJSONMethodCodec.sharedInstance())
     let instance = RecentFilesPlugin(channel: channel)
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
   
-  init(channel: FLEMethodChannel) {
+  init(channel: FlutterMethodChannel) {
     self.channel = channel
   }
   
-  func handle(_ call: FLEMethodCall, result: @escaping FLEMethodResult) {
-    if (call.methodName == "get") {
+  func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
+    if (call.method == "get") {
       let recentFilePath = UserDefaults.standard.string(forKey: "recent")
       result(recentFilePath)
-    } else if (call.methodName == "set") {
+    } else if (call.method == "set") {
       if let recentPath = call.arguments as? String {
         UserDefaults.standard.set(recentPath, forKey: "recent")
       }
       result(nil)
     } else {
-      result(FLEMethodNotImplemented)
+      result(FlutterMethodNotImplemented)
     }
   }
 }
