@@ -21,7 +21,6 @@ For more details on the [presentation file structure](https://github.com/flutter
 
 ### Requirements
 - XCode 10 or higher
-- Flutter Desktop Embedding 
 - Flutter tracking the master branch ([Why?](https://github.com/google/flutter-desktop-embedding/blob/master/library/README.md#Caveats))
 
 **If your versions are earlier than these commits, it definitely won't work.  If they're later, it may work but we can't make any claims to that.**
