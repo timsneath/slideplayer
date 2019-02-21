@@ -21,7 +21,7 @@ For more details on the [presentation file structure](https://github.com/flutter
 
 ### Requirements
 - XCode 10 or higher
-- Flutter 1.0 or later
+- Flutter tracking the master branch ([Why?](https://github.com/google/flutter-desktop-embedding/blob/master/library/README.md#Caveats))
 
 ### Setting Up
 
